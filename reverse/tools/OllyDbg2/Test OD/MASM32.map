@@ -1,0 +1,30 @@
+
+ Start         Length     Name                   Class
+ 0002:00000000 000000136H .text                  CODE
+ 0003:00000000 000000128H .rdata                 DATA
+ 0004:00000000 000000035H .data                  DATA
+ 0005:00000000 000005320H .rsrc                  DATA
+
+
+  Address         Publics by Value
+
+ 0004:FFFFD000       start
+ 0004:FFFFD02C       DialogFunc
+ 0004:FFFFD106       DialogBoxParamA
+ 0004:FFFFD10C       EndDialog
+ 0004:FFFFD112       LoadImageA
+ 0004:FFFFD118       SendMessageA
+ 0004:FFFFD11E       SetDlgItemTextA
+ 0004:FFFFD124       SetWindowTextA
+ 0004:FFFFD12A       ExitProcess
+ 0004:FFFFD130       GetModuleHandleA
+ 0005:00000000       __IMPORT_DESCRIPTOR_user32
+ 0005:00000014       __IMPORT_DESCRIPTOR_kernel32
+ 0005:000000C4       aUser32_dll
+ 0005:000000F2       aKernel32_dll
+ 0006:00000000       String
+ 0006:0000000B       aAsmCCDialogfun
+ 0006:00000020       aGimmeSomething
+ 0006:00000030       hInstance
+
+Program entry point at 0004:FFFFD000

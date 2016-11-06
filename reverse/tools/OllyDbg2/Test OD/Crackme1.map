@@ -1,0 +1,58 @@
+
+ Start         Length     Name                   Class
+ 0002:00000000 00000050EH .text                  CODE
+ 0003:00000000 0000002F2H .rdata                 DATA
+ 0004:00000000 00000017CH .data                  DATA
+ 0005:00000000 0000090D0H .rsrc                  DATA
+
+
+  Address         Publics by Value
+
+ 0001:00000000       start
+ 0001:00000031       Label_Set_By_IMap
+ 0001:000000FE       DialogFunc
+ 0001:00000106       aWellDoneYouGuy
+ 0001:00000136       aWrongKeyTryAga
+ 0001:00000151       aHttpWww_chinad
+ 0001:000003FE       wsprintfA
+ 0001:00000404       CreateDialogParamA
+ 0001:0000040A       DefWindowProcA
+ 0001:00000410       DestroyWindow
+ 0001:00000416       DispatchMessageA
+ 0001:0000041C       GetDlgItem
+ 0001:00000422       GetMessageA
+ 0001:00000428       GetWindowTextA
+ 0001:0000042E       LoadCursorA
+ 0001:00000434       LoadIconA
+ 0001:0000043A       MessageBoxA
+ 0001:00000440       PostQuitMessage
+ 0001:00000446       RegisterClassExA
+ 0001:0000044C       SendMessageA
+ 0001:00000452       SetWindowTextA
+ 0001:00000458       ShowWindow
+ 0001:0000045E       TranslateMessage
+ 0001:00000464       UpdateWindow
+ 0001:0000046A       ExitProcess
+ 0001:00000470       GetCommandLineA
+ 0001:00000476       GetModuleHandleA
+ 0001:0000047C       GetVolumeInformationA
+ 0001:00000482       IsDebuggerPresent
+ 0001:00000488       InitCommonControls
+ 0002:00000070       __IMPORT_DESCRIPTOR_user32
+ 0002:00000084       __IMPORT_DESCRIPTOR_kernel32
+ 0002:00000098       __IMPORT_DESCRIPTOR_comctl32
+ 0002:00000254       aUser32_dll
+ 0002:000002C0       aKernel32_dll
+ 0002:000002E4       aComctl32_dll
+ 0003:00000000       aDlgclass
+ 0003:00000009       aMymenu
+ 0003:00000010       TemplateName
+ 0003:00000019       Text
+ 0003:00000125       Caption
+ 0003:0000012B       lParam
+ 0003:00000140       aLu
+ 0003:00000150       hInstance
+ 0003:00000158       hWnd
+ 0003:0000015C       String
+
+Program entry point at 0001:00000000
