@@ -1,0 +1,22 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   EKO.java
+
+
+public class EKO
+{
+
+    public EKO()
+    {
+    }
+
+    public static void main(String args[])
+    {
+        int i = 0;
+        for(int j = 0; j < 1337; j++)
+            i += j;
+
+        String s = (new StringBuilder()).append("EKO{").append(i).append("}").toString();
+    }
+}
